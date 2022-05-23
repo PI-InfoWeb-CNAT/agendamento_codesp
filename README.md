@@ -1,6 +1,6 @@
-# Agendamento de Serviços - 1.0
+# AgendEsportes - CODESP
 
-Este projeto tem como objetivo ser uma aplicação modelo para o Projeto Integrador do Curso Técnico de Informática para Internet ofertado pelo Campus Natal-Central do IFRN.
+Este projeto tem como objetivo ser uma aplicação de agenda virtual para a Coordenação Desportiva do IFRN - Campus Natal Central.
 
 Atualmente o projeto não possui uma implementação, mas está aberto a receber contribuições de código que representem as especificação aqui presente.
 
