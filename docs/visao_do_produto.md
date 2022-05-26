@@ -8,6 +8,7 @@
 |:-------|:-------|:----------|:------|
 | 19/06/2021 |  **`1.0`** | Versão Inicial  | Gilbert Azevedo |
 | 26/05/2022 |  **`1.1`** | Versão Modificada  | Joanderson Santos |
+| 26/05/2022 |  **`1.2`** | Versão Modificada  | Wagner Gomes |
 
 
 ### 1. Objetivo do Projeto 
