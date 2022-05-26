@@ -75,6 +75,6 @@ O sistema deve ter uma interface amigável e permitir o acesso concorrente de cl
 | RNF01 | Tema | Deverá ter uma configuração fácil para mudar de tema, por exemplo tema claro e escuro. | Usabilidade | Desejável |
 | RNF02 | Alteração Não Salva | Aparecera uma tela de confirmação se o cliente tentar sair da página sem confirmar as alterações não salvas. | Segurança | Obrigatório |
 | RNF03 | Reutilizar Dados | Utilizando dados cadastrados anteriormente, podemos acelerar o próximo processo que irá ser iniciado. | Reusabilidade | Desejável |
-| RNF04 | Tempo de resposta |A comunicação entre o servidor e o cliente deve ocorrer em tempo hábil | Performance | Desejável |
+| RNF04 | Informações de Sessões | Mostrar ao usuário do sistema onde a conta dele possa estar logada, mostrando o computador e a hora que foi utilizado a conta. | Segurança | Obrigatório |
 | RNF05 | Sistema Web | A aplicação deve ser um site. | Arquitetura | Obrigatório |
 | RNF06 | Dados pessoais | Os clientes não devem visualizar dados de outros clientes (na agenda, por exemplo). | Privacidade | Obrigatório |
