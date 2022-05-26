@@ -9,6 +9,7 @@
 | 19/06/2021 |  **`1.0`** | Versão Inicial  | Gilbert Azevedo |
 | 26/05/2022 |  **`1.1`** | Versão Modificada  | Joanderson Santos |
 | 26/05/2022 |  **`1.2`** | Versão Modificada  | Wagner Gomes |
+| 26/05/2022 | **`1.3`** | Versão Modificada | Beatriz Ferreira |
 
 
 ### 1. Objetivo do Projeto 
@@ -28,15 +29,15 @@ O projeto __AgendEsportes__ tem como objetivo prover uma solução simples, aces
 
 | Nome | Descrição | Responsabilidades |
 |:---  |:--- |:--- |
-| Administrador  | Realiza as atividades básicas para o início da operação do sistema | Mantém o cadastro dos funcionários responsáveis pela operação da agenda de serviços |
-| Funcionário  | Realiza as atividades relacionadas ao controle da agenda de serviços | Mantém o cadastro de serviços; consulta a situação das agendas de serviços; mantém a agenda de atendimento; confirma o agendamento de clientes e exclui o agendamento de clientes |
-| Cliente | Realiza as atividades relacionadas ao agendamento do serviço | Realiza o próprio cadastro no sistema; consulta a agenda de serviços e disponibilidades de atendimento; agenda um serviço; consulta seus agendamentos e cancela um agendamento |
+| Administrador  | Realiza as atividades básicas para o início da operação do sistema de agendamentos | Mantém o cadastro dos funcionários responsáveis pela operação da agenda de serviços e também da disponibilidade de horários desses espaços a serem reservados |
+| Usuário CODESP (funcionário)  | Realiza as atividades relacionadas ao controle da agenda de serviços | Mantém o cadastro de serviços; consulta a situação das agendas de serviços; mantém a agenda de atendimento; confirma o agendamento de clientes e exclui o agendamento de clientes |
+| Usuário Aluno/Servidor | Realiza as atividades relacionadas ao agendamento do serviço | Realiza o próprio cadastro no sistema; consulta a agenda de serviços e disponibilidades de atendimento; agenda um serviço; consulta seus agendamentos e cancela um agendamento |
 
 ### 4. Descrição do Ambiente dos Usuários
 
 Em várias atividades esportivas feitas no ginásio ou nas quadras do CNAT, é necessário que os alunos, ou professores, reservem um horário na CODESP. 
 
-Quando o aluno ou professor resolve pegar um horário, geralmente ele precisa se dirigir pessoalmente até a CODESP. E como, muitas vezes não há bolsistas na CODESP, esse agendamento pode ter causado apenas uma perca de tempo para o cliente que ainda precisará voltar a CODESP para reservar o horário, pois há a necessidade de encontrar um horário viável para os dois envolvidos.
+Quando o aluno ou professor resolve pegar um horário, geralmente ele precisa se dirigir pessoalmente até a CODESP. E como, muitas vezes não tem nenhum bolsista lá, esse agendamento pode ter causado apenas uma perca de tempo para o cliente que ainda precisará voltar a CODESP para reservar o horário. Há a necessidade de encontrar um horário viável para os dois envolvidos.
 
 Desta forma, a ideia central do sistema é permitir que a CODESP registre suas grade de horários disponíveis e que clientes, em geral, possam consultar e agendar os horários. Com isso, o sistema pode estabelecer um canal de comunicação mais ágil entre os alunos/professores e a CODESP.
 
@@ -48,7 +49,7 @@ Para os clientes, as necessidades são reservar os horários na CODESP sem preci
 
 ### 6.	Alternativas Concorrentes
 
-As alternativas concorrentes são, em geral, específicas para uma empresa ou profissional. A ideia do sistema proposto é prover uma solução simples, acessível e padronizada para o agendamento de serviços e que pode ser utilizada por quaisquer profissionais e empresas.
+No momento, não existe nenhum sistema digital que auxilie no agendamento de serviços da CODESP. A ideia do sistema proposto é que prover uma solução que seja simples, acessível e mais prática para esse tipo de ofício.
 
 ### 7.	Visão Geral do Produto
 
