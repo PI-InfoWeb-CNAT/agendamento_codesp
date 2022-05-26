@@ -72,7 +72,7 @@ O sistema deve ter uma interface amigável e permitir o acesso concorrente de cl
 
  Código | Nome | Descrição | Categoria | Classificação
 |:---  |:--- |:--- |:--- |:--- |
-| RNF01 | Design responsivo | O sistema deve adaptar-se a qualquer tamanho de tela de dispositivo, seja, computador, tablets ou smart phones. | Usabilidade| Obrigatório |
+| RNF01 | Tema | Deverá ter uma configuração fácil para mudar de tema, por exemplo tema claro e escuro. | Usabilidade | Desejável |
 | RNF02 | Criptografia de dados| Senhas de usuários devem ser gravadas de forma criptografada no banco de dados. | Segurança | Obrigatório |
 | RNF03 | Controle de acesso | Só usuários autenticados podem ter acesso ao sistema, com exceção ao auto cadastramento do usuário. | Segurança | Obrigatório |
 | RNF04 | Tempo de resposta |A comunicação entre o servidor e o cliente deve ocorrer em tempo hábil | Performance | Desejável |
