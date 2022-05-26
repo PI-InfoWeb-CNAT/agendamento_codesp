@@ -77,4 +77,4 @@ O sistema deve ter uma interface amigável e permitir o acesso concorrente de cl
 | RNF03 | Reutilizar Dados | Utilizando dados cadastrados anteriormente, podemos acelerar o próximo processo que irá ser iniciado. | Reusabilidade | Desejável |
 | RNF04 | Informações de Sessões | Mostrar ao usuário do sistema onde a conta dele possa estar logada, mostrando o computador e a hora que foi utilizado a conta. | Segurança | Obrigatório |
 | RNF05 | Histórico de Agendamentos | Clientes podem ver o seu histórico de agendamentos, mostrando dia, hora e mês. | Usabilidade | Obrigatório |
-| RNF06 | Dados pessoais | Os clientes não devem visualizar dados de outros clientes (na agenda, por exemplo). | Privacidade | Obrigatório |
+| RNF06 | Participantes | Mostrar ao usuário que agendou um horário, outros usuários que agendaram naquele mesmo serviço. | Reusabilidade | Desejável |
