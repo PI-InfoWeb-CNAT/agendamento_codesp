@@ -6,21 +6,22 @@
 
 |  Data  | Versão | Descrição | Autor |
 |:-------|:-------|:----------|:------|
-| 19/06/2021 |  **`1.00`** | Versão Inicial  | Gilbert Azevedo |
+| 19/06/2021 |  **`1.0`** | Versão Inicial  | Gilbert Azevedo |
+| 26/05/2022 |  **`1.1`** | Versão Modificada  | Joanderson Santos |
 
 
 ### 1. Objetivo do Projeto 
 
-O projeto __Agendamento de Serviços__ tem como objetivo prover uma solução simples, acessível e padronizada para o agendamento de serviços através da Internet.
+O projeto __AgendEsportes__ tem como objetivo prover uma solução simples, acessível e padronizada para o agendamento de horários da CODESP serem feitos de modo virtual.
 
 ### 2. Descrição do Problema 
 
 |         __        | __   |
 |:------------------|:-----|
-| **_O problema_**    | Marcar um horário de atendimento com profissionais, como dentistas, médicos, psicólogos, dentro outros, e empresas prestadoras de serviços, como concessionárias de automóveis, eletrônicas, pet-shops, etc.  |
-| **_afetando_**      | Profissionais e empresas que fornecem diversos serviços à sociedade e pessoas que precisam contratar esses serviços, agendando um horário de atendimento. |
-| **_cujo impacto é_**| Dificuldade no agendamento do atendimento, dificuldade na contratação dos serviços, perda de clientes (empresas e profissionais) e não realização de serviços (clientes). |
-| **_uma boa solução seria_** | Um sistema na Internet que permita aos profissionais e empresas informar a disponibilidade de horários de atendimento, facilitando o agendamento desses atendimentos para seus clientes. E para os clientes, um sistema que facilite a busca de profissionais e empresas para agendamento de um atendimento. |
+| **_O problema_**    | Reservar um horário das quadras ou ginásio. |
+| **_afetando_**      | Alunos e professores que estão tentando reservar horários na CODESP. |
+| **_cujo impacto é_**| Dificuldade no agendamento do atendimento, pois às vezes os bolsistas não estão na sala nos momentos em que os alunos/professores estão indo reservar. Além de consumir um pouco mais do tempo de quem reserva. |
+| **_uma boa solução seria_** | Um sistema na Internet que permita a coordenação informar a disponibilidade de horários disponíveis, facilitando o agendamento desses atendimentos para seus clientes. E para os clientes, um sistema que facilite a reserva de um horário sem precisar ir lá. |
 
 ### 3. Descrição dos Usuários
 
@@ -32,17 +33,17 @@ O projeto __Agendamento de Serviços__ tem como objetivo prover uma solução si
 
 ### 4. Descrição do Ambiente dos Usuários
 
-Em várias atividades do cotidiano humano é necessário agendar um horário determinado para que uma ação específica seja realizada. Isso ocorre, por exemplo, quando um automóvel vai ser revisado em uma oficina, quando um médico vai consultar um paciente ou quando consertos diversos (hidráulicos, elétricos, dentre outros) são realizados em uma residência. 
+Em várias atividades esportivas feitas no ginásio ou nas quadras do CNAT, é necessário que os alunos, ou professores, reservem um horário na CODESP. 
 
-Em muitas dessas situações, o cliente precisa atualmente estabelecer um contato pessoal com o profissional ou com a empresa prestadora do serviço para agendar um atendimento. E, como isso é normalmente realizado por telefone ou aplicativo de mensagens, encontrar um horário de atendimento possível para ambas as partes pode ser custoso, pois há a necessidade de encontrar um horário viável para os dois envolvidos.
+Quando o aluno ou professor resolve pegar um horário, geralmente ele precisa se dirigir pessoalmente até a CODESP. E como, muitas vezes não há bolsistas na CODESP, esse agendamento pode ter causado apenas uma perca de tempo para o cliente que ainda precisará voltar a CODESP para reservar o horário, pois há a necessidade de encontrar um horário viável para os dois envolvidos.
 
-Desta forma, a ideia central do sistema é permitir que empresas e profissionais registrem suas disponibilidades de atendimento e que clientes, em geral, possam consultar e agendar horários para realização e contratação de serviços. Com isso, o sistema pode estabelecer um canal de comunicação mais ágil entre clientes e empresas ou profissionais.
+Desta forma, a ideia central do sistema é permitir que a CODESP registre suas grade de horários disponíveis e que clientes, em geral, possam consultar e agendar os horários. Com isso, o sistema pode estabelecer um canal de comunicação mais ágil entre os alunos/professores e a CODESP.
 
 ### 5. Principais Necessidades dos Usuários
 
-Para empresas e profissionais, a necessidade é divulgar sua disponibilidade de atendimentos para viabilizar, de forma mais eficiente, o atendimento dos seus clientes.
+Para a CODESP, a necessidade é divulgar sua disponibilidade de horários para viabilizar, de forma mais eficiente, o atendimento dos seus clientes.
 
-Para os clientes, as necessidades são encontrar profissionais e empresas prestadoras de serviço e agendar atendimentos com estes de acordo as disponibilidades de tempo dos envolvidos.
+Para os clientes, as necessidades são reservar os horários na CODESP sem precisar que algum funcionário faça isso por ele e que ele precise ter de ir lá remotamente.
 
 ### 6.	Alternativas Concorrentes
 
@@ -50,7 +51,7 @@ As alternativas concorrentes são, em geral, específicas para uma empresa ou pr
 
 ### 7.	Visão Geral do Produto
 
-Em resumo, o sistema de Agendamento de Serviços é uma aplicação que permite empresas e profissionais registrarem suas disponibilidades de atendimento aos seus clientes, de forma que estes possam consultar e agendar horários para realização de serviços.
+Em resumo, o sistema AgendEsporte é uma aplicação que permite que Arenas, Ginásios ou Coordenações Desportivas a registrarem suas disponibilidades de atendimento aos seus clientes, de forma que estes possam consultar e agendar horários de forma online para realização de serviços.
 
 O sistema deve ter uma interface amigável e permitir o acesso concorrente de clientes para agendamento de um horário de atendimento.
 
@@ -63,8 +64,8 @@ O sistema deve ter uma interface amigável e permitir o acesso concorrente de cl
 | RF03 | Gerenciamento de Serviços |  Funcionário mantém a relação de serviços prestados pela empresa ou profissional |
 | RF04 | Gerenciamento da Agenda | Funcionário registra os horários disponíveis de atendimento, confirma e cancela o agendamento de clientes |
 | RF05 | Cadastro de Clientes | Cliente deve realizar o auto cadastramento |
-| RF06 | Consulta de Agendas | Cliente consulta agendas de atendimento dos serviços disponíveis, podendo agendar um serviço  |
-| RF07 | Consulta de Agendamento | Cliente consulta atendimentos agendados, podendo cancelar um agendamento |
+| RF06 | Consulta de Agendas | Cliente consulta a grade de horários disponíveis, podendo agendar um serviço  |
+| RF07 | Consulta de Agendamento | Cliente consulta horários reservados, podendo cancelar um agendamento |
 
 
 ### 9. Requisitos Não-funcionais
