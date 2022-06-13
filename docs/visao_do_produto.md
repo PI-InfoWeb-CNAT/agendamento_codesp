@@ -29,9 +29,9 @@ O projeto __AgendEsportes__ tem como objetivo prover uma solução simples, aces
 
 | Nome | Descrição | Responsabilidades |
 |:---  |:--- |:--- |
-| Administrador  | Realiza as atividades básicas para o início da operação do sistema de agendamentos | Mantém o cadastro dos funcionários responsáveis pela operação da agenda de serviços e também da disponibilidade de horários desses espaços a serem reservados |
-| Usuário CODESP (funcionário)  | Realiza as atividades relacionadas ao controle da agenda de serviços | Mantém o cadastro de serviços; consulta a situação das agendas de serviços; mantém a agenda de atendimento; confirma o agendamento de clientes e exclui o agendamento de clientes |
-| Usuário Aluno/Servidor | Realiza as atividades relacionadas ao agendamento do serviço | Realiza o próprio cadastro no sistema; consulta a agenda de serviços e disponibilidades de atendimento; agenda um serviço; consulta seus agendamentos e cancela um agendamento |
+| Administrador  | Realiza as atividades básicas para o início da operação do sistema de agendamentos | Mantém o cadastro dos funcionários responsáveis pela operação da agenda de serviços |
+| Usuário CODESP (funcionário)  | Realiza as atividades relacionadas ao controle da agenda de serviços (realização de aula, evento, amistoso)| Mantém o cadastro de serviços; consulta a situação das agendas de serviços; mantém a agenda de atendimento; organiza a disponibilidade de horários desses espaços (quadras) a serem reservados; cadastra o espaço a ser reservado; confirma o agendamento de clientes e exclui o agendamento de clientes |
+| Usuário Aluno/Servidor | Realiza as atividades relacionadas ao agendamento do serviço | Realiza o próprio cadastro no sistema; disponibilidades de atendimento; agenda um horário; consulta seus agendamentos e cancela um agendamento |
 
 ### 4. Descrição do Ambiente dos Usuários
 
@@ -63,11 +63,12 @@ O sistema deve ter uma interface amigável e permitir o acesso concorrente de cl
 |:---  |:--- |:--- |
 | RF01 | Entrar no sistema | Usuários devem logar no sistema para acessar as funcionalidades relacionadas ao agendamento |
 | RF02 | Cadastro de Funcionários | Administrador do sistema mantém o cadastro dos funcionários responsáveis pelo gerenciamento das agendas |
-| RF03 | Gerenciamento de Serviços |  Funcionário mantém a relação de serviços prestados pela empresa ou profissional |
-| RF04 | Gerenciamento da Agenda | Funcionário registra os horários disponíveis de atendimento, confirma e cancela o agendamento de clientes |
-| RF05 | Cadastro de Clientes | Cliente deve realizar o auto cadastramento |
-| RF06 | Consulta de Agendas | Cliente consulta a grade de horários disponíveis, podendo agendar um serviço  |
-| RF07 | Consulta de Agendamento | Cliente consulta horários reservados, podendo cancelar um agendamento |
+| RF03 | Cadastro dos Espaços | Funcionário registra os espaços que podem ser reservados |
+| RF04 | Gerenciamento de Serviços |  Funcionário registra o motivo da do agendamento  |
+| RF05 | Gerenciamento da Agenda | Funcionário registra os horários disponíveis de atendimento, confirma e cancela o agendamento de clientes |
+| RF06 | Cadastro de Clientes | Cliente deve realizar o auto cadastramento |
+| RF07 | Consulta de Agendas | Cliente consulta a grade de horários disponíveis, podendo agendar um serviço  |
+| RF08 | Consulta de Agendamento | Cliente consulta horários reservados, podendo cancelar um agendamento |
 
 
 ### 9. Requisitos Não-funcionais
