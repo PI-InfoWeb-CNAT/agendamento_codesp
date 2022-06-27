@@ -32,7 +32,7 @@ O projeto __AgendEsportes__ tem como objetivo prover uma solução simples, aces
 |:---  |:--- |:--- |
 | Administrador  | Realiza as atividades básicas para o início da operação do sistema de agendamentos | Mantém o cadastro dos funcionários responsáveis pela operação da agenda de serviços |
 | Usuário CODESP (funcionário)  | Realiza as atividades relacionadas ao controle da agenda de serviços como realização de aula, evento, amistoso (normalmente requer uma descrição)| Mantém o cadastro de serviços; consulta a situação das agendas de serviços; mantém a agenda de atendimento; organiza a disponibilidade de horários desses espaços (quadras) a serem reservados; cadastra o espaço a ser reservado; confirma o agendamento de clientes e exclui o agendamento de clientes |
-| Usuário Aluno/Servidor | Realiza seu próprio cadastro, consulta a agenda dos espaços esportivos, agenda horários em espaços esportivos, cancela agendamentos. |
+| Usuário Aluno/Servidor | Consulta agenda dos espaços; agenda um espaço, | Realiza seu próprio cadastro, consulta a agenda dos espaços esportivos, agenda horários em espaços esportivos, cancela agendamentos. |
 
 ### 4. Descrição do Ambiente dos Usuários
 
