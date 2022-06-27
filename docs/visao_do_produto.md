@@ -11,6 +11,7 @@
 | 26/05/2022 |  **`1.2`** | Versão Modificada  | Wagner Gomes |
 | 26/05/2022 | **`1.3`** | Versão Modificada | Beatriz Ferreira |
 | 27/06/2022 | **`1.4`** | Versão Modificada | Beatriz Ferreira |
+| 27/06/2022 | **`1.5`** | Versão Modificada | Wagner Gomes |
 
 ### 1. Objetivo do Projeto 
 
