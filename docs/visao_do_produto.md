@@ -69,6 +69,7 @@ O sistema deve ter uma interface amigável e permitir o acesso concorrente de cl
 | RF06 | Cadastro de Clientes | Cliente deve realizar o auto cadastramento |
 | RF07 | Consulta de Agendas | Cliente consulta a grade de horários disponíveis, podendo agendar um serviço  |
 | RF08 | Consulta de Agendamento | Cliente consulta horários reservados, podendo cancelar um agendamento |
+| RF09 | Cadastro dos Espaços | Funcionario cadastra espaços disponiveis para agendamento. |
 
 
 ### 9. Requisitos Não-funcionais
