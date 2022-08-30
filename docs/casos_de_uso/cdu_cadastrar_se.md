@@ -16,8 +16,8 @@ Nesse caso de uso, os usuários acessam o sistema e realizam seu cadastro, poden
 
 ### 2. Atores 
 
-* Usuário: poderá fornecer inforçãoes para seus próximos acessos no sistema.
-* Funcionário: poderá fornecer inforçãoes para seus próximos acessos no sistema.
+* Usuário: poderá fornecer informações para seus próximos acessos no sistema.
+* Funcionário: poderá fornecer informações para seus próximos acessos no sistema.
 
 ### 3. Pré-condições
 

@@ -12,11 +12,12 @@
 
 ### 1. Resumo 
 
-Nesse caso de uso, o usuário acessa o sistema e realiza seu cadastro, podendo: fornecer informações como seu nome, uma senha de sua escolha, email, tipo de vínculo com o IFRN, matrícula e curso.
+Nesse caso de uso, os usuários acessam o sistema e realizam seu cadastro, podendo: fornecer informações como seu nome, uma senha de sua escolha, email, tipo de vínculo com o IFRN, matrícula e curso.
 
 ### 2. Atores 
 
-Usuário
+* Usuário: poderá fornecer inforçãoes para seus próximos acessos no sistema.
+* Funcionário: poderá fornecer inforçãoes para seus próximos acessos no sistema.
 
 ### 3. Pré-condições
 
