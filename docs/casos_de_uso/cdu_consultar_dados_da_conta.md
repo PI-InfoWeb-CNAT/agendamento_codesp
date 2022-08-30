@@ -12,20 +12,20 @@
 
 ### 1. Resumo 
 
-Nesse caso de uso, os usuários acessam o sistema e realizam seu cadastro, podendo: fornecer informações como seu nome, uma senha de sua escolha, email, tipo de vínculo com o IFRN, matrícula e curso.
+Nesse caso de uso, os usuários acessam o sistema e visualizam seus dados fornecidos no momento do cadastro.
 
 ### 2. Atores 
 
-* Usuário: poderá fornecer inforçãoes para seus próximos acessos no sistema.
-* Funcionário: poderá fornecer inforçãoes para seus próximos acessos no sistema.
+* Usuário: poderá realizar a consulta de seus dados.
+* Funcionário: poderá realizar a consulta de seus dados.
 
 ### 3. Pré-condições
 
-O usuário deve estar vinculado à instituição IFRN.
+Qualquer um dos usuários deve estar logado no sistema.
 
 ### 4. Pós-condições
 
-O sistema disponibiliza a visualização dos horários e ambientes disponíveis para reserva.
+O sistema disponibiliza a visualização dos dados do usuário.
 
 ### 5. Fluxos de Evento
 
@@ -33,14 +33,8 @@ O sistema disponibiliza a visualização dos horários e ambientes disponíveis 
 
 | Ator   | Sistema |
 |:-------|:--------|
-| 1. O usuário fornece suas informações como nome, uma senha de sua escolha, email, tipo de vínculo com o IFRN, matrícula e curso. ||
-|| 2. O sistema realiza o cadastro desses dados em seu banco de dados, permitindo que o usuário realize o login nos seus próximos acessos. |
-
-#### 5.2. Fluxos de Exceção
-
-| Exceção | Sistema |
-|:--------|:--------|
-| 1. Dados inválidos para a operação | Se o usuário tentar inserir ou atualizar dados com informações inválidas (por exemplo, matrícula repetida), o sistema deve apresentar um alerta e não realizar a operação. |
+| 1. O usuário acessa a página de perfil do site para a consulta de seus dados. ||
+|| 2. O sistema fornece  visualização dos dados do usuário, estes, fornecidos no momento do cadastro. |
 
 
 ### 6. Protótipos de Interface
