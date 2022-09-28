@@ -1,6 +1,6 @@
 # Projeto Agendamento de Serviços
 
-## Especificação do caso de uso - Gerenciar Quadra
+## Especificação do caso de uso - Gerenciar Esporte
 
 ### Histórico da Revisão 
 
@@ -45,4 +45,4 @@ O sistema remove ou adiciona os esportes alterados pelo funcionário.
 
 
 ### 6. Protótipos de Interface
-`A ser desenvolvido pelo aluno.`
+[Protótipo de alta fidelidade realizado no Figma](/guides/content/editing-an-existing-page#modifying-front-matter)

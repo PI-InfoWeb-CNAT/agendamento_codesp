@@ -1,6 +1,6 @@
 # Projeto Agendamento de Serviços
 
-## Especificação do caso de uso - Gerenciar Quadra
+## Especificação do caso de uso - Gerenciar Funcionário
 
 ### Histórico da Revisão 
 
@@ -12,19 +12,19 @@
 
 ### 1. Resumo 
 
-Nesse caso de uso, o usuário funcionário acessa o sistema e visualiza o painel de controle (dashboard) da agenda do profissional ou da empresa, que disponibiliza o acesso à operação de gerenciar quadras. Essa operação consiste em adicionar ou remover espaços que podem ser agendados.
+Nesse caso de uso, o administrador acessa o sistema e abre a aba de cadastro de funcionários. Essa operação disponiliza tanto as opções de visualização quanto a de alteração dos dados dos profissionais.
 
 ### 2. Atores 
 
-Funcionário
+Administrador
 
 ### 3. Pré-condições
 
-O funcionário deve estar autenticado no sistema.
+O administrador deve estar autenticado no sistema.
 
 ### 4. Pós-condições
 
-O sistema remove ou adiciona os espaços alterados pelo funcionário.
+O sistema remove ou adiciona as alterações realizadas pelo administrador.
 
 ### 5. Fluxos de Evento
 

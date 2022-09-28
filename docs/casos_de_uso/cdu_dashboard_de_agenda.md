@@ -44,4 +44,4 @@ O sistema apresenta a agenda do profissional ou da empresa para a data e o servi
 
 
 ### 6. Protótipos de Interface
-`A ser desenvolvido pelo aluno.`
+[Protótipo de alta fidelidade realizado no Figma](/guides/content/editing-an-existing-page#modifying-front-matter)
