@@ -8,7 +8,7 @@
 |:-------|:-------|:----------|:------|
 | 16/07/2021 | **1.00** | Versão Inicial  | Gilbert Azevedo |
 | 16/05/2021 | **1.10** | Ajustes na redação  | Gilbert Azevedo |
-| 30/08/2002 | **2.0**  | Detalhamento  | Beatriz Ferreira |
+| 30/08/2022 | **2.0**  | Detalhamento  | Beatriz Ferreira |
 
 ### 1. Resumo 
 
