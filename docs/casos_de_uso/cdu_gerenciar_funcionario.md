@@ -20,7 +20,7 @@ Administrador
 
 ### 3. Pré-condições
 
-O administrador deve estar autenticado no sistema.
+O administrador deve estar logado no sistema.
 
 ### 4. Pós-condições
 
@@ -32,16 +32,15 @@ O sistema remove ou adiciona as alterações realizadas pelo administrador quant
 
 | Ator   | Sistema |
 |:-------|:--------|
-| 1. O usuário acessa o painel de gerenciamento de quadras. ||
-|| 2. O sistema apresenta o painel de controle com controles que permitem ao usuário selecionar uma data e um serviço. O controle de seleção de data deve iniciar no dia atual. O controle de seleção de serviço deve iniciar vazio, se houver mais de um tipo de serviço disponível, ou com o serviço selecionado, caso apenas um serviço esteja disponível. |
-| 3. O usuário ajusta, se necessário, os controles de seleção de data e serviço e submete a consulta ao sistema. ||
-|| 4. O sistema apresenta no formato de tabela os horários da agenda do dia e serviço informados, disponibilizando as opções de confirmar um agendamento e excluir um agendamento, para cada horário da agenda, e de abrir a agenda do dia, para gerenciar o cadastro de horários disponíveis. O sistema deve apresentar todos os horários da agenda do dia, informando os dados dos clientes. |
+| 1. O administrador acessa o painel de gerenciamento de funcionário. ||
+|| 2. O sistema apresenta o painel de controle com controles que permitem ao usuário selecionar os funcionários autenticados no sistema. |
+|| 3. O sistema apresenta no formato de tabela todos os funcionários cadastrados no sistema. O sistema deve apresentar todos os funcionários autenticados no sistema informando os dados dos mesmos. |
 
 #### 5.2. Fluxo de Exceção
 
 | Exceção | Sistema |
 |:--------|:--------|
-| 1. Dados inválidos para a operação | Se o administrador para a realização da consulta, o sistema deve apresentar um alerta de dados não informados e a consulta não é realizada. Essa operação se repete até que uma data e um serviço sejam informados. |
+| 1. Dados inválidos para a operação | Se o administrador não selecionar um funcionário válido para a realização da consulta, o sistema deve apresentar um alerta de dados não informados e a consulta não é realizada. Essa operação se repete até que uma data e um serviço sejam informados. |
 
 
 ### 6. Protótipos de Interface
