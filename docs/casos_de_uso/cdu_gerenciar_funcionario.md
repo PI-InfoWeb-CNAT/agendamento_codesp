@@ -24,7 +24,7 @@ O administrador deve estar autenticado no sistema.
 
 ### 4. Pós-condições
 
-O sistema remove ou adiciona as alterações realizadas pelo administrador.
+O sistema remove ou adiciona as alterações realizadas pelo administrador quanto aos funcionários.
 
 ### 5. Fluxos de Evento
 
@@ -41,7 +41,7 @@ O sistema remove ou adiciona as alterações realizadas pelo administrador.
 
 | Exceção | Sistema |
 |:--------|:--------|
-| 1. Dados inválidos para a operação | Se o usuário não selecionar uma data e um serviço para a realização da consulta, o sistema deve apresentar um alerta de dados não informados e a consulta não é realizada. Essa operação se repete até que uma data e um serviço sejam informados. |
+| 1. Dados inválidos para a operação | Se o administrador para a realização da consulta, o sistema deve apresentar um alerta de dados não informados e a consulta não é realizada. Essa operação se repete até que uma data e um serviço sejam informados. |
 
 
 ### 6. Protótipos de Interface
