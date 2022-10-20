@@ -1,6 +1,6 @@
 # Projeto Agendamento de Serviços
 
-## Especificação do caso de uso - Dashboard de Agenda
+## Especificação do caso de uso - Gerenciar Quadra
 
 ### Histórico da Revisão 
 
@@ -8,10 +8,11 @@
 |:-------|:-------|:----------|:------|
 | 16/07/2021 | **1.00** | Versão Inicial  | Gilbert Azevedo |
 | 09/05/2022 | **1.10** | Ajustes da redação | Gilbert Azevedo |
+| 28/09/2022 | **2.0**  | Detalhamento  | Beatriz Ferreira |
 
 ### 1. Resumo 
 
-Nesse caso de uso, o usuário funcionário acessa o sistema e visualiza o painel de controle (dashboard) da agenda do profissional ou da empresa, que disponibiliza o acesso às demais operações do sistema relacionadas à agenda.
+Nesse caso de uso, o usuário funcionário acessa o sistema e visualiza o painel de controle (dashboard) da agenda do profissional ou da empresa, que disponibiliza o acesso à operação de gerenciar quadras. Essa operação consiste em adicionar ou remover espaços que podem ser agendados.
 
 ### 2. Atores 
 
@@ -23,7 +24,7 @@ O funcionário deve estar autenticado no sistema.
 
 ### 4. Pós-condições
 
-O sistema apresenta a agenda do profissional ou da empresa para a data e o serviço informados pelo funcionário.
+O sistema remove ou adiciona os espaços alterados pelo funcionário.
 
 ### 5. Fluxos de Evento
 
@@ -31,7 +32,7 @@ O sistema apresenta a agenda do profissional ou da empresa para a data e o servi
 
 | Ator   | Sistema |
 |:-------|:--------|
-| 1. O usuário acessa o painel de controle da agenda. ||
+| 1. O usuário acessa o painel de gerenciamento de quadras. ||
 || 2. O sistema apresenta o painel de controle com controles que permitem ao usuário selecionar uma data e um serviço. O controle de seleção de data deve iniciar no dia atual. O controle de seleção de serviço deve iniciar vazio, se houver mais de um tipo de serviço disponível, ou com o serviço selecionado, caso apenas um serviço esteja disponível. |
 | 3. O usuário ajusta, se necessário, os controles de seleção de data e serviço e submete a consulta ao sistema. ||
 || 4. O sistema apresenta no formato de tabela os horários da agenda do dia e serviço informados, disponibilizando as opções de confirmar um agendamento e excluir um agendamento, para cada horário da agenda, e de abrir a agenda do dia, para gerenciar o cadastro de horários disponíveis. O sistema deve apresentar todos os horários da agenda do dia, informando os dados dos clientes. |

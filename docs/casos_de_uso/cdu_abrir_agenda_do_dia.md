@@ -43,4 +43,4 @@ O sistema disponibiliza os horários cadastrados na agenda para que os clientes 
 
 
 ### 6. Protótipos de Interface
-`A ser desenvolvido pelo aluno.`
+[Protótipo de alta fidelidade realizado no Figma](/guides/content/editing-an-existing-page#modifying-front-matter)
