@@ -1,0 +1,73 @@
+﻿@model AgendEsport_PI.Models.Funcionarios
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<style>
+    body {
+        background-color: #2B2929;
+    }
+
+    h4 {
+        color: white;
+    }
+
+    dl {
+        color: white;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    a {
+        color: white;
+    }
+
+        a:hover {
+            color: white;
+        }
+</style>
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="dropdown-menu-left">
+        <dt>
+            @Html.DisplayNameFor(model => model.Registro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Registro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <button type="button" class="btn btn-primary">
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Id })
+    </button>
+
+    <button type="button" class="btn btn-info">
+        @Html.ActionLink("Voltar para lista", "Index")
+    </button>
+</p>
