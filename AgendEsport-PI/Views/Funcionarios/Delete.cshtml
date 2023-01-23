@@ -1,0 +1,77 @@
+﻿@model AgendEsport_PI.Models.Funcionarios
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<style>
+    body {
+        background-color: #2B2929;
+    }
+
+    h3 {
+        color: red;
+        text-align: center;
+    }
+
+    dl {
+        color: white;
+    }
+
+    a {
+        color: white;
+    }
+
+        a:hover {
+            color: white;
+        }
+</style>
+<h2>
+
+</h2>
+
+
+
+<h3>Tem certeza que deseja deletar este funcionário?</h3>
+<div>
+    <h4>Funcionarios</h4>
+    <hr />
+    <dl class="dropdown-menu-left">
+        <dt>
+            @Html.DisplayNameFor(model => model.Registro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Registro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+<div class="form-actions no-color">
+    <input type="submit" value="Sim, deletar" class="btn btn-danger" />
+
+    <button type="button" class="btn btn-primary">
+        @Html.ActionLink("Não, voltar para lista", "Index")
+    </button>
+</div>
+    }
+</div>

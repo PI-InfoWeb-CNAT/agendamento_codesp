@@ -1,0 +1,170 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<style>
+
+    .oi {
+        position: absolute;
+        width: 672px;
+        height: 61px;
+        left: 245px;
+        top: 540px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 70px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .fundo {
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+        background: #2B2929;
+    }
+
+
+    .logo {
+        background-image: url("https://i.postimg.cc/bvfkb1Sj/Logo-1.png"); 
+        position: absolute;
+        width: 308.33px;
+        height: 54.4px;
+        left: 54px;
+        top: 38px;
+    }
+
+    .navbar {
+        background-image: url("https://i.postimg.cc/mDrjnQLF/Fundo-Cabe-alho.png");
+  
+    }
+
+    .icone {
+        background-image: url("https://i.postimg.cc/4yr4Hb2C/Agend-Icone-1.png");
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 1664px;
+        top: 25px;
+    }
+
+    .outro {
+        background-image: url("https://i.postimg.cc/MpZZMTdp/User-Icone.png");
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 1798px;
+        top: 30px;
+    }
+
+    .branco {
+
+        /* Rectangle */
+
+        position: absolute;
+        width: 650px;
+        height: 475px;
+        left: 1150px;
+        top: 374px;
+        background: #C4C4C4;
+    }
+
+    .verde {
+
+        /* Rectangle 2 */
+
+        position: absolute;
+        width: 650px;
+        height: 475px;
+        left: 1210px;
+        top: 313px;
+        background: #22B573;
+    }
+
+    .botão {
+
+        /* Botão */
+
+        position: absolute;
+        width: 279px;
+        height: 79px;
+        left: 442px;
+        top: 624px;
+        background: #22B573;
+        border-radius: 30px;
+    }
+
+    .texto {
+
+        /* Agendar Aqui */
+
+        position: absolute;
+        width: 260px;
+        height: 61px;
+        left: 501px;
+        top: 638px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+</style>
+
+
+<div class="fundo"></div>
+
+<div class="oi">
+    <p>99 Horários disponíveis</p>
+</div>
+
+<div class="logo"></div>
+<div class="icone"></div>
+<div class="outro"></div>
+
+<div class="branco"></div>
+<div class="verde"></div>
+
+<div class="botão"></div>
+<div class="texto">
+    <p>Agendar Aqui</p>
+</div>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" title="mais opções">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @Html.ActionLink("Nome do aplicativo", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Página Inicial", "Index", "Home")</li>
+                <li>@Html.ActionLink("Sobre", "About", "Home")</li>
+                <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+    </div>
+</div>
+
+</html>
