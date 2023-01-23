@@ -189,6 +189,10 @@
     <Compile Include="Migrations\202212190143102_vaidacerto.designer.cs">
       <DependentUpon>202212190143102_vaidacerto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301231041569_teste.cs" />
+    <Compile Include="Migrations\202301231041569_teste.designer.cs">
+      <DependentUpon>202301231041569_teste.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Espaços.cs" />
@@ -296,6 +300,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212190143102_vaidacerto.resx">
       <DependentUpon>202212190143102_vaidacerto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301231041569_teste.resx">
+      <DependentUpon>202301231041569_teste.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

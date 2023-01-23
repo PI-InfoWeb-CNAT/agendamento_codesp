@@ -4,15 +4,119 @@
     ViewBag.Title = "Logon";
 }
 
-<h2>@ViewBag.Title.</h2>
+<style>
+    body {
+        background-color: #2B2929;
+    }
+
+    .fundo {
+        position: absolute;
+        width: 1072px;
+        height: 600px;
+        top: 185px;
+    }
+
+    .row {
+        position: absolute;
+        width: 499px;
+        height: 88.04px;
+        left: 790px;
+        top: 420px;
+    }
+
+    .topopag {
+        position: absolute;
+        width: 1920px;
+        height: 130px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .bottonpag {
+        position: absolute;
+        width: 1920px;
+        height: 130px;
+        left: 0px;
+        top: 839px;
+    }
+
+    .logo {
+        position: absolute;
+        width: 499px;
+        height: 88.04px;
+        left: 680px;
+        top: 300px;
+    }
+
+    a {
+        position:relative;
+        color: #12D77E;
+        left: 45px;
+    }
+
+    .form-group {
+        color:white;
+    }
+
+    .barratopopag {
+        position: absolute;
+        width: 1920px;
+        left: 0px;
+        top: 135px;
+    }
+
+    .barrabottonpag {
+        position: absolute;
+        width: 1920px;
+        left: 0px;
+        top: 828px;
+    }
+    
+    p {
+        position:absolute;
+        left:20px;
+        top: 135px;
+    }
+
+    .col-md-offset-2 {
+        position:absolute;
+        top: 150px;
+    }
+
+    .checkbox {
+        position:absolute;
+        top: -40px;
+        left: px;
+    }
+
+    .btn-success {
+        position: absolute;
+        left: 15px;
+        top: -60px;
+        width: 250px;
+        background-color: #12D77E;
+    }
+
+    
+
+</style>
+
+<img class="fundo" src="https://i.postimg.cc/50Fy0hk4/Fundo.png" />
+<img class="topopag" src="https://i.postimg.cc/hjch3z3x/Fundo-Cabe-alho.png"/>
+<img class="bottonpag" src="https://i.postimg.cc/hjch3z3x/Fundo-Cabe-alho.png"/>
+<img class="barratopopag" src="https://i.postimg.cc/hPvRgLJs/Barrinha-Cabe-alho.png" />
+<img class="barrabottonpag" src="https://i.postimg.cc/hPvRgLJs/Barrinha-Cabe-alho.png" />
+<img class="logo" src="https://i.postimg.cc/sXjDJFv4/Logo.png" />
+
+
 <div class="row">
     <div class="col-md-8">
         <section id="loginForm">
             @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
             {
                 @Html.AntiForgeryToken()
-                <h4>Use uma conta local para fazer o logon.</h4>
-                <hr />
+                
+                
                 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
                 <div class="form-group">
                     @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
@@ -28,21 +132,21 @@
                         @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
                     </div>
                 </div>
-                <div class="form-group">
+               // <div align="center" class="form-group">
+                   // <div class="col-md-offset-2 col-md-10">
+                       // <div class="checkbox">
+                         //   @Html.CheckBoxFor(m => m.RememberMe)
+                         //   @Html.LabelFor(m => m.RememberMe)
+                       // </div>
+                   // </div>
+                //</div>
+                <div align="center" class="form-group">
                     <div class="col-md-offset-2 col-md-10">
-                        <div class="checkbox">
-                            @Html.CheckBoxFor(m => m.RememberMe)
-                            @Html.LabelFor(m => m.RememberMe)
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-md-offset-2 col-md-10">
-                        <input type="submit" value="Logon" class="btn btn-default" />
+                        <input type="submit" value="Entrar" class="btn btn-success" />
                     </div>
                 </div>
                 <p>
-                    @Html.ActionLink("Registre-se como um novo usuário", "Register")
+                    @Html.ActionLink("Não tem uma conta? Cadastre-se agora! ", "Register")
                 </p>
                 @* Habilite quando a confirmação da conta estiver ativada para a funcionalidade de redefinição de senha
                     <p>
@@ -51,11 +155,7 @@
             }
         </section>
     </div>
-    <div class="col-md-4">
-        <section id="socialLoginForm">
-            @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
-        </section>
-    </div>
+    
 </div>
 
 @section Scripts {

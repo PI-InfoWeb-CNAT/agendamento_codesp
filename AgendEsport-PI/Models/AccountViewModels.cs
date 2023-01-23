@@ -70,6 +70,14 @@ namespace AgendEsport_PI.Models
         public string Email { get; set; }
 
         [Required]
+        [Display(Name = "Nome")]
+        public string Nome { get; set; }
+
+        [Required]
+        [Display(Name = "Matrícula")]
+        public string Matrícula { get; set; }
+
+        [Required]
         [StringLength(100, ErrorMessage = "O {0} deve ter pelo menos {2} caracteres.", MinimumLength = 6)]
         [DataType(DataType.Password)]
         [Display(Name = "Senha")]

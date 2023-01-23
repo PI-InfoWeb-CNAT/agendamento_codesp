@@ -3,12 +3,541 @@
     ViewBag.Title = "Gerenciar";
 }
 
+
+<style>
+
+
+    .well {
+        /* Fundo */
+
+        position: absolute;
+        width: 485px;
+        height: 953px;
+        left: -2px;
+        top: 127px;
+        background: #5C5B5B;
+    }
+
+    .foto {
+        /* Foto de Perfil */
+
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 150px;
+        top: 229px;
+        background: #22B573;
+        border-radius: 200px;
+    }
+
+    .traço {
+        /* Barra divisória */
+
+        position: absolute;
+        width: 483px;
+        height: 7px;
+        left: 0px;
+        top: 443px;
+        background: #22B573;
+    }
+
+    .dad1 {
+        /* Meus Dados */
+
+        position: absolute;
+        width: 143.11px;
+        height: 22.72px;
+        left: 21.84px;
+        top: 508.59px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #22B573;
+    }
+
+    .horários {
+        /* Meus Horários */
+
+        position: absolute;
+        width: 168.58px;
+        height: 22.72px;
+        left: 21.61px;
+        top: 561.59px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .sair {
+        position: absolute;
+        width: 56.21px;
+        height: 22.72px;
+        left: 22px;
+        top: 619px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .finin {
+        /* Traço mais fino */
+
+        position: absolute;
+        width: 483px;
+        height: 1px;
+        left: 0px;
+        top: 540px;
+        background: #22B573;
+    }
+
+    .finin2 {
+        /* Traço meus horários */
+
+
+        position: absolute;
+        width: 485px;
+        height: 1px;
+        left: -2px;
+        top: 594px;
+        background: #22B573;
+    }
+
+    .finin3 {
+        /* Traço meus dados */
+
+        position: absolute;
+        width: 483px;
+        height: 1px;
+        left: 0px;
+        top: 648px;
+        background: #22B573;
+    }
+
+    .direito {
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+        background: #2B2929
+    }
+
+    .dad2 {
+        /* Meus Dados */
+
+        position: absolute;
+        width: 310px;
+        height: 49px;
+        left: 543px;
+        top: 227px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 60px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #22B573;
+    }
+
+    .finin4 {
+        /* Barra meus dados */
+
+
+        position: absolute;
+        width: 1317px;
+        height: 7px;
+        left: 543px;
+        top: 286px;
+        background: #5C5A5A;
+    }
+
+    .botaum {
+        /* Botão Editar Dados */
+
+        //position: absolute;
+       // width: 180px;
+       // height: 52px;
+       // left: 1620px;
+       // top: 229px;
+       // background: #22B573;
+       // border-radius: 30px;
+    }
+
+    .tex {
+        position: absolute;
+        width: 180px;
+        height: 60px;
+        left: 1635px;
+        top: 229px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .nome {
+        /* Nome: */
+
+
+        position: absolute;
+        width: 71.23px;
+        height: 22.72px;
+        left: 555px;
+        top: 416px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #22B573;
+    }
+
+    .cliver {
+        /* Cliver Avelino Vilela */
+
+       // position: absolute;
+       // width: 228.75px;
+       // height: 23.03px;
+       // left: 630px;
+      //  top: 416px;
+      //  font-family: 'Inter';
+      //  font-style: normal;
+      //  font-weight: 300;
+       // font-size: 25px;
+      //  line-height: 30px;
+      //  display: flex;
+      //  align-items: center;
+      //  color: #FFFFFF;
+    }
+
+    .Matricula {
+        /* Matrícula: */
+
+
+        position: absolute;
+        width: 115.27px;
+        height: 22.72px;
+        left: 1201px;
+        top: 416px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #22B573;
+    }
+
+    .mat {
+        /* 201910111169 */
+
+
+       // position: absolute;
+       // width: 193.25px;
+       // height: 23.03px;
+       // left: 1310px;
+       // top: 416px;
+       // font-family: 'Inter';
+       // font-style: normal;
+       // font-weight: 300;
+       // font-size: 25px;
+       // line-height: 30px;
+       // display: flex;
+        //align-items: center;
+       // color: #FFFFFF;
+    }
+
+    .finin5 {
+        /* traço nome e matricula */
+
+
+        position: absolute;
+        width: 1317px;
+        height: 7px;
+        left: 543px;
+        top: 443px;
+        background: #5C5A5A;
+    }
+
+    .email {
+        /* Email: */
+
+
+        position: absolute;
+        width: 69.2px;
+        height: 22.72px;
+        left: 555px;
+        top: 508px;
+        font-family: 'Inter';
+        font-style: normal;
+       font-weight: 300;
+      font-size: 23px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #22B573;
+    }
+
+    .fogo {
+        /* botafogocampeao@gmail.com */
+       // position: absolute;
+       // width: 372.25px;
+       // height: 29.44px;
+       // left: 630px;
+       // top: 503px;
+       // font-family: 'Inter';
+       // font-style: normal;
+       // font-weight: 300;
+       // font-size: 23px;
+       // line-height: 30px;
+       // display: flex;
+      //  align-items: center;
+      //  color: #FFFFFF;
+    }
+
+    .numero {
+        /* Número: */
+
+
+       // position: absolute;
+       // width: 94.95px;
+       // height: 22.72px;
+       // left: 1201px;
+       // top: 507px;
+        //font-family: 'Inter';
+       // font-style: normal;
+       // font-weight: 300;
+       // font-size: 23px;
+        //line-height: 30px;
+       // display: flex;
+       // align-items: center;
+       // color: #22B573;
+    }
+
+    .number {
+        /* 84 98133-3379 */
+
+        //position: absolute;
+       // width: 192.02px;
+       // height: 23.03px;
+       // left: 1290px;
+       // top: 507px;
+       // font-family: 'Inter';
+       // font-style: normal;
+       // font-weight: 300;
+       // font-size: 23px;
+       // line-height: 30px;
+       // display: flex;
+       // align-items: center;
+       // color: #FFFFFF;
+    }
+
+    .finin6 {
+        /* traço email e número */
+
+        position: absolute;
+        width: 1317px;
+        height: 7px;
+        left: 543px;
+       top: 536px;
+        background: #5C5A5A;
+    }
+
+    .Curso {
+        /* Curso: */
+
+
+       // position: absolute;
+       // width: 72.12px;
+       // height: 23.03px;
+       // left: 555px;
+       // top: 602px;
+       // font-family: 'Inter';
+       // font-style: normal;
+       // font-weight: 300;
+       // font-size: 23px;
+       // line-height: 30px;
+       // display: flex;
+       // align-items: center;
+       // color: #22B573;
+    }
+
+    .info {
+        /* Infoweb KKKKKKK */
+
+
+      //  position: absolute;
+       // width: 916.91px;
+       // height: 29.12px;
+       // left: 622px;
+       // top: 599px;
+       // font-family: 'Inter';
+       /// font-style: normal;
+       // font-weight: 300;
+       // font-size: 23px;
+       // line-height: 30px;
+      //  display: flex;
+      //  align-items: center;
+      //  color: #FFFFFF;
+    }
+
+    .finin7 {
+        /* traço curso */
+
+
+       // position: absolute;
+       // width: 1317px;
+       // height: 7px;
+       // left: 543px;
+       // top: 629px;
+       // background: #5C5A5A;
+    }
+
+    dd {
+        position:absolute;
+       
+        align-content:center;
+        left:1500px;
+        top: 240px;
+    }
+
+    .navbar {
+        background-image: url("https://i.postimg.cc/mDrjnQLF/Fundo-Cabe-alho.png");
+    }
+</style>
+
+<div class="direito"></div>
+<div class="well"></div>
+<div class="foto"></div>
+<div class="traço"></div>
+<div class="finin"></div>
+<div class="finin2"></div>
+<div class="finin3"></div>
+
+<div class="dad1">
+    <p>Meus Dados</p>
+</div>
+<div class="horários">
+    <p>Meus Horários</p>
+</div>
+<div class="sair">
+    <p>Sair</p>
+</div>
+
+<div class="finin4"></div>
+<div class="dad2">
+    <p>Meus Dados</p>
+</div>
+<div class="botaum"></div>
+<DIV class="tex">
+    <p></p>
+</DIV>
+<div class="nome">
+    <p>Nome:</p>
+</div>
+<div class="cliver">
+    <p>Cliver Avelino Vilela</p>
+</div>
+<div class="Matricula">
+    <p>Matricula:</p>
+</div>
+<div class="mat">
+    <p>2019101111666</p>
+</div>
+<div class="finin5"></div>
+<div class="email">
+    <p>E-mail:</p>
+</div>
+<div class="fogo">
+    <p>vaibotafogocampeão@gmail.com</p>
+</div>
+<div class="numero">
+    <p>Número:</p>
+</div>
+<div class="number">
+    <p>84 99429-0796</p>
+</div>
+<div class="Curso">
+    <p>Curso:</p>
+</div>
+<div class="info">
+    <p>Técnico de Nível Médio em Informática para Internet - Campus Natal-Central</p>
+</div>
+<dev class="finin6"></dev>
+<dev class="finin7"></dev>
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" title="mais opções">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @Html.ActionLink("Nome do aplicativo", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Página Inicial", "Index", "Home")</li>
+                <li>@Html.ActionLink("Sobre", "About", "Home")</li>
+                <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+    </div>
+</div>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" title="mais opções">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            @Html.ActionLink("AgendEsport.", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>
+
+                </li>
+
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+    </div>
+</div>
 <h2>@ViewBag.Title.</h2>
 
 <p class="text-success">@ViewBag.StatusMessage</p>
 <div>
     <h4>Alterar as configurações de conta</h4>
-    <hr />
     <dl class="dl-horizontal">
         <dt>Senha:</dt>
         <dd>
@@ -22,21 +551,20 @@
                 @Html.ActionLink("Criar", "SetPassword")
             }
             ]
+
+
         </dd>
-        <dt>Logins externos:</dt>
-        <dd>
-            @Model.Logins.Count [
-            @Html.ActionLink("Gerenciar", "ManageLogins") ]
-        </dd>
+
+
         @*
             Os Números de Telefone podem ser usados como um segundo fator de verificação em um sistema de autenticação de dois fatores.
-             
+
              Confira <a href="https://go.microsoft.com/fwlink/?LinkId=403804">este artigo</a>
                 para obter detalhes de como configurar este aplicativo ASP.NET para permitir a autenticação de dois fatores usando SMS.
-             
+
              Remova a marca de comentário do bloco a seguir depois de configurar a autenticação de dois fatores
         *@
-        @*  
+        @*
             <dt>Número de Telefone:</dt>
             <dd>
                 @(Model.PhoneNumber ?? "None")
@@ -56,32 +584,27 @@
                 }
             </dd>
         *@
-        <dt>Autenticação de dois fatores:</dt>
-        <dd>
-            <p>
-                Não há nenhum provedor de autenticação de dois fatores configurado. Confira <a href="https://go.microsoft.com/fwlink/?LinkId=403804">este artigo</a>
-                para obter detalhes de como configurar este aplicativo ASP.NET para permitir a autenticação de dois fatores.
-            </p>
-            @*@if (Model.TwoFactor)
+
+        @*@if (Model.TwoFactor)
+            {
+                using (Html.BeginForm("DisableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
                 {
-                    using (Html.BeginForm("DisableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-                    {
-                        @Html.AntiForgeryToken()
-                        <text>Habilitado
-                        <input type="submit" value="Desabilitar" class="btn btn-link" />
-                        </text>
-                    }
+                    @Html.AntiForgeryToken()
+                    <text>Habilitado
+                    <input type="submit" value="Desabilitar" class="btn btn-link" />
+                    </text>
                 }
-                else
+            }
+            else
+            {
+                using (Html.BeginForm("EnableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
                 {
-                    using (Html.BeginForm("EnableTwoFactorAuthentication", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-                    {
-                        @Html.AntiForgeryToken()
-                        <text>Desabilitado
-                        <input type="submit" value="Habilitar" class="btn btn-link" />
-                        </text>
-                    }
-                }*@
+                    @Html.AntiForgeryToken()
+                    <text>Desabilitado
+                    <input type="submit" value="Habilitar" class="btn btn-link" />
+                    </text>
+                }
+            }*@
         </dd>
     </dl>
 </div>

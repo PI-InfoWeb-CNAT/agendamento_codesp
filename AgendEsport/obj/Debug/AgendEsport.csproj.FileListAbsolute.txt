@@ -1,0 +1,2 @@
+C:\Users\jhona\Source\Repos\agendamento_codesp\AgendEsport\obj\Debug\AgendEsport.csproj.AssemblyReference.cache
+C:\Users\jhona\Source\Repos\agendamento_codesp\AgendEsport\obj\Debug\AgendEsport.csproj.CoreCompileInputs.cache

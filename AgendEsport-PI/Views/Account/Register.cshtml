@@ -3,18 +3,114 @@
     ViewBag.Title = "Register";
 }
 
-<h2>@ViewBag.Title.</h2>
+<style>
+
+    body {
+        background-color: #2B2929;
+    }
+
+    .form-group {
+        color: white;
+        position: relative;
+        left: 200px;
+        top: 320px;
+    }
+
+    .topopag {
+        position: absolute;
+        width: 1920px;
+        height: 130px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .bottonpag {
+        position: absolute;
+        width: 1920px;
+        height: 130px;
+        left: 0px;
+        top: 839px;
+    }
+
+
+    a {
+        position: relative;
+        color: #12D77E;
+        left: 45px;
+    }
+
+
+    .barratopopag {
+        position: absolute;
+        width: 1920px;
+        left: 0px;
+        top: 135px;
+    }
+
+    .barrabottonpag {
+        position: absolute;
+        width: 1920px;
+        left: 0px;
+        top: 828px;
+    }
+
+    h2 {
+        color: white;
+        position: absolute;
+        font-size:60px;
+        top: 270px;
+        left:750px;
+    }
+
+    .btn-su {
+        position: absolute;
+        color: white;
+        background-color: #12D77E;
+        left: 15px;
+        width: 300px;
+    }
+
+    .fundo {
+        position: absolute;
+        width: 1072px;
+        height: 600px;
+        top: 185px;
+    }
+
+</style>
+
+<img class="topopag" src="https://i.postimg.cc/hjch3z3x/Fundo-Cabe-alho.png" />
+<img class="bottonpag" src="https://i.postimg.cc/hjch3z3x/Fundo-Cabe-alho.png" />
+<img class="barratopopag" src="https://i.postimg.cc/hPvRgLJs/Barrinha-Cabe-alho.png" />
+<img class="barrabottonpag" src="https://i.postimg.cc/hPvRgLJs/Barrinha-Cabe-alho.png" />
+<img class="fundo" src="https://i.postimg.cc/50Fy0hk4/Fundo.png" />
+
+<h2>CADASTRO</h2>
 
 @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
 {
     @Html.AntiForgeryToken()
-    <h4>Criar uma nova conta.</h4>
-    <hr />
+
+
     @Html.ValidationSummary("", new { @class = "text-danger" })
     <div class="form-group">
         @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
         <div class="col-md-10">
             @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Nome, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Nome, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Matrícula, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Matrícula, new { @class = "form-control" })
         </div>
     </div>
     <div class="form-group">
@@ -31,7 +127,7 @@
     </div>
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
-            <input type="submit" class="btn btn-default" value="Registrar" />
+            <input type="submit" class="btn btn-su" value="Finalizar Cadastro" />
         </div>
     </div>
 }
