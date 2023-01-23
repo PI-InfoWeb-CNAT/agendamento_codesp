@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using AgendEsport_PI.Models;
+using System.Net;
 
 namespace AgendEsport_PI.Controllers
 {
@@ -184,6 +185,21 @@ namespace AgendEsport_PI.Controllers
             var result = await UserManager.ConfirmEmailAsync(userId, code);
             return View(result.Succeeded ? "ConfirmEmail" : "Error");
         }
+
+        public ActionResult Details(int? id)
+        {/*
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Esportes esportes = db.Esportes.Find(id);
+            if (esportes == null)
+            {
+                return HttpNotFound();
+            }
+            return View(esportes);*/
+            return View();
+        } 
 
         //
         // GET: /Account/ForgotPassword
