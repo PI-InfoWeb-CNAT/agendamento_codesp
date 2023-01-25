@@ -35,5 +35,7 @@ namespace AgendEsport_PI.Models
         public System.Data.Entity.DbSet<AgendEsport_PI.Models.Funcionarios> Funcionarios { get; set; }
 
         public System.Data.Entity.DbSet<AgendEsport_PI.Models.Espaços> Espaços { get; set; }
+
+        public System.Data.Entity.DbSet<AgendEsport_PI.Models.Agendamento> Agendamentoes { get; set; }
     }
 }

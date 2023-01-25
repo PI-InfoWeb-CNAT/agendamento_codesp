@@ -1,0 +1,51 @@
+﻿@model IEnumerable<AgendEsport_PI.Models.Agendamento>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Data)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hora)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quadra)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Esporte)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hora)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quadra)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Esporte)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AgendamentoID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.AgendamentoID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AgendamentoID })
+        </td>
+    </tr>
+}
+
+</table>

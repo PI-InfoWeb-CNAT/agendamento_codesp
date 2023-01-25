@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AgendEsport-PI",
+    "\\AgendEsport-PI\\Views",
+    "\\AgendEsport-PI\\Views\\Agendamentos"
   ],
-  "SelectedNode": "\\AgendEsport-PI.sln",
+  "SelectedNode": "\\AgendEsport-PI\\Views\\Agendamentos\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }
