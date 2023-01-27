@@ -12,7 +12,7 @@ namespace AgendEsport_PI.Models
         public int AgendamentoID { get; set; }
 
         [DataType(DataType.Date)]
-        [DisplayName("Data de Cadastro")]
+        [DisplayName("Data")]
         [Required(ErrorMessage = "Informe a data de cadastro do produto")]
         public DateTime Data { get; set; }
         public AgendamentoHora Hora { get; set; }

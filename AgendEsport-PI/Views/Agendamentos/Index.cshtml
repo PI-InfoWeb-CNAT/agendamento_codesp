@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<AgendEsport_PI.Models.Agendamento>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Agendamento";
 }
 
-<h2>Index</h2>
+<h2>Sua agenda</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Reservar horário", "Create")
 </p>
 <table class="table">
     <tr>
@@ -41,9 +41,9 @@
             @Html.DisplayFor(modelItem => item.Esporte)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.AgendamentoID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.AgendamentoID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.AgendamentoID })
+            @Html.ActionLink("Editar", "Edit", new { id=item.AgendamentoID }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.AgendamentoID }) |
+            @Html.ActionLink("Excluir", "Delete", new { id=item.AgendamentoID })
         </td>
     </tr>
 }
